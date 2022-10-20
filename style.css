@@ -1,0 +1,14 @@
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.flex{
+    display: flex;
+}
+@media only screen and (max-width: 750px){
+    #logo{
+        width: 70%;
+    }
+}
